@@ -1,7 +1,7 @@
 # Afterburner
 
 <h3 align="center">
-  <img src="assets/logo.png" width="200" alt="Afterburner Logo"/>
+  <img src="assets/logo.png" width="512" alt="Afterburner Logo"/>
 </h3>
 
 <p align="center">
