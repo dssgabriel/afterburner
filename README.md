@@ -1,59 +1,240 @@
 # Afterburner · Fogburn
 
-> **International Orange** color themes for developers — built around [International Orange (Aerospace)](https://en.wikipedia.org/wiki/International_orange#Aerospace) `#FF4F00`, the color of NASA flight suits, the Bell X-1, and Chuck Yeager's sound barrier run.
+<h3 align="center">
+  <img src="assets/palette/afterburner-primary.svg" width="80" alt="Afterburner Logo"/>
+  <img src="assets/palette/fogburn-primary.svg" width="80" alt="Fogburn Logo"/>
+</h3>
 
----
+<p align="center">
+  <a href="https://en.wikipedia.org/wiki/International_orange#Aerospace">International Orange</a> color themes for developers — built around <code>#FF4F00</code>, the color of NASA flight suits, the Bell X-1, and Chuck Yeager's sound barrier run.
+</p>
 
-<div align="center">
+<p align="center">
+  <a href="#-palette">Palette</a>
+  ·
+  <a href="#-ports">Ports</a>
+  ·
+  <a href="#-installation">Installation</a>
+  ·
+  <a href="#-design-decisions">Design Decisions</a>
+</p>
 
-![Afterburner dark preview](https://raw.githubusercontent.com/dssgabriel/afterburner/tree/main/assets/afterburner-preview.png)
+&nbsp;
 
-**Afterburner** (dark) · **Fogburn** (light)
-
-</div>
-
----
-
-## The colors
+### 🎨 Palette
 
 Two variants, one identity. The accent is always International Orange. The backgrounds change; the character doesn't.
 
-| | Afterburner (dark) | Fogburn (light) |
-|---|---|---|
-| **Background** | `#0D0D0D` | `#F5F0EB` |
-| **Foreground** | `#E0E0E0` | `#2A2218` |
-| **Primary** | `#FF4F00` | `#C94000` |
-| **Orange mid** | `#FF7A33` | `#D45A00` |
-| **Orange pale** | `#FFB380` | `#B87040` |
-| **Cursor** | `#CC3F00` | `#A33200` |
-| **Selection** | `#2A1500` | `#EDE5DC` |
-| **Red (Engineering)** | `#BA160C` | `#BA160C` |
-| **Green** | `#5FBF7E` | `#2E7D4F` |
-| **Amber** | `#E09B30` | `#9A6A10` |
-| **Teal** | `#4DBFA8` | `#2D8C7A` |
-| **Blue** | `#4A8AB5` | `#2A6A9A` |
-| **Purple** | `#A07DE0` | `#7058C0` |
-| **Warm gray** | `#A89888` | `#A89888` |
+<details open>
+<summary>🔥 Afterburner (dark)</summary>
+<table>
+	<tr>
+		<th></th>
+		<th>Labels</th>
+		<th>Hex</th>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/afterburner-background.svg" width="23"/></td>
+		<td>Background</td>
+		<td><code>#0D0D0D</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/afterburner-foreground.svg" width="23"/></td>
+		<td>Foreground</td>
+		<td><code>#E0E0E0</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/afterburner-primary.svg" width="23"/></td>
+		<td>Primary</td>
+		<td><code>#FF4F00</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/afterburner-orange-mid.svg" width="23"/></td>
+		<td>Orange Mid</td>
+		<td><code>#FF7A33</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/afterburner-orange-pale.svg" width="23"/></td>
+		<td>Orange Pale</td>
+		<td><code>#FFB380</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/afterburner-cursor.svg" width="23"/></td>
+		<td>Cursor</td>
+		<td><code>#CC3F00</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/afterburner-selection.svg" width="23"/></td>
+		<td>Selection</td>
+		<td><code>#2A1500</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/afterburner-red.svg" width="23"/></td>
+		<td>Red</td>
+		<td><code>#BA160C</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/afterburner-green.svg" width="23"/></td>
+		<td>Green</td>
+		<td><code>#5FBF7E</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/afterburner-amber.svg" width="23"/></td>
+		<td>Amber</td>
+		<td><code>#E09B30</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/afterburner-teal.svg" width="23"/></td>
+		<td>Teal</td>
+		<td><code>#4DBFA8</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/afterburner-blue.svg" width="23"/></td>
+		<td>Blue</td>
+		<td><code>#4A8AB5</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/afterburner-purple.svg" width="23"/></td>
+		<td>Purple</td>
+		<td><code>#A07DE0</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/afterburner-warm-gray.svg" width="23"/></td>
+		<td>Warm Gray</td>
+		<td><code>#A89888</code></td>
+	</tr>
+</table>
+</details>
 
-### Why two oranges?
+<details open>
+<summary>🌅 Fogburn (light)</summary>
+<table>
+	<tr>
+		<th></th>
+		<th>Labels</th>
+		<th>Hex</th>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/fogburn-background.svg" width="23"/></td>
+		<td>Background</td>
+		<td><code>#F5F0EB</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/fogburn-foreground.svg" width="23"/></td>
+		<td>Foreground</td>
+		<td><code>#2A2218</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/fogburn-primary.svg" width="23"/></td>
+		<td>Primary</td>
+		<td><code>#C94000</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/fogburn-orange-mid.svg" width="23"/></td>
+		<td>Orange Mid</td>
+		<td><code>#D45A00</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/fogburn-orange-pale.svg" width="23"/></td>
+		<td>Orange Pale</td>
+		<td><code>#B87040</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/fogburn-cursor.svg" width="23"/></td>
+		<td>Cursor</td>
+		<td><code>#A33200</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/fogburn-selection.svg" width="23"/></td>
+		<td>Selection</td>
+		<td><code>#EDE5DC</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/fogburn-red.svg" width="23"/></td>
+		<td>Red</td>
+		<td><code>#BA160C</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/fogburn-green.svg" width="23"/></td>
+		<td>Green</td>
+		<td><code>#2E7D4F</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/fogburn-amber.svg" width="23"/></td>
+		<td>Amber</td>
+		<td><code>#9A6A10</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/fogburn-teal.svg" width="23"/></td>
+		<td>Teal</td>
+		<td><code>#2D8C7A</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/fogburn-blue.svg" width="23"/></td>
+		<td>Blue</td>
+		<td><code>#2A6A9A</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/fogburn-purple.svg" width="23"/></td>
+		<td>Purple</td>
+		<td><code>#7058C0</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/circles/fogburn-warm-gray.svg" width="23"/></td>
+		<td>Warm Gray</td>
+		<td><code>#A89888</code></td>
+	</tr>
+</table>
+</details>
 
-The **primary accent** is [International Orange (Aerospace)](https://en.wikipedia.org/wiki/International_orange#Aerospace) `#FF4F00` — used on NASA flight suits, the Bell X-1, and search-and-rescue equipment. It was chosen for *conspicuity*: maximum visibility against any background.
+&nbsp;
 
-The **error/red** is [International Orange (Engineering)](https://en.wikipedia.org/wiki/International_orange#Engineering) `#BA160C` — the color of the Golden Gate Bridge. Same family, different application. Danger signals stay semantically distinct from the accent without reaching for an unrelated hue.
+### 📦 Ports
 
----
+Available for the following tools and applications:
 
-## Name lore
+<details open>
+<summary>🖥️ Terminals</summary>
 
-**Afterburner** — the dark theme. Raw combustion that ignites the dark. Named for the mechanical process itself.
+- [Ghostty](./ports/ghostty/)
+- [Kitty](./ports/kitty/)
+- [WezTerm](./ports/wezterm/)
 
-**Fogburn** — the light theme. The moment morning fog catches the sun over the Golden Gate Bridge, and warm orange light bleeds through cool white atmosphere. Named for [Irving Morrow](https://en.wikipedia.org/wiki/Irving_Morrow), the architect who chose International Orange for the bridge after workers fell in love with the red lead primer coat.
+</details>
 
-The ANSI "bright yellow" slot (11) carries `#FF4F00` in both themes — so keywords, prompts, and the `❯` glyph all resolve to International Orange wherever your shell or editor uses that slot.
+<details open>
+<summary>💻 Editors & IDEs</summary>
 
----
+- [Helix](./ports/helix/)
+- [Sublime Text](./ports/sublime-text/)
 
-## Installations
+</details>
+
+<details open>
+<summary>🐚 Shells & CLI</summary>
+
+- [Fish shell](./ports/fish/)
+- [Starship](./ports/starship/)
+
+</details>
+
+<details open>
+<summary>📁 File Managers</summary>
+
+- [Eza](./ports/eza/)
+
+</details>
+
+<details open>
+<summary>🔧 Development Tools</summary>
+
+- [OpenCode](./ports/opencode/)
+
+</details>
+
+&nbsp;
+
+### 🚀 Installation
 
 ### Ghostty
 
@@ -103,7 +284,7 @@ Source whichever matches your terminal background. The prompt function captures 
 ~/.config/starship.toml
 ```
 
-Prompt colors follow the same orange hierarchy: directory in full `#FF4F00` bold, username in orange mid, hostname in orange dark, git branch in cursor orange. Error glyph uses `#BA160C` (Engineering) to match the error semantic across all configs.
+Prompt colors follow the same orange hierarchy: directory in full `#FF4F00` bold, username in orange mid, hostname in cursor orange. Error glyph uses `#BA160C` (Engineering) to match the error semantic.
 
 ### Eza
 
@@ -111,7 +292,7 @@ Prompt colors follow the same orange hierarchy: directory in full `#FF4F00` bold
 ~/.config/eza/theme.yml
 ```
 
-Single file works with both Afterburner and Fogburn — colors are mid-range hex values that maintain legibility on both `#0D0D0D` and `#F5F0EB`. Directory entries are bold orange; file sizes run a heat ramp (pale → orange → red as size grows); git status follows the standard green/orange/red semantic.
+Single file works with both themes — colors are mid-range hex values that maintain legibility on both backgrounds. Directory entries are bold orange; file sizes run a heat ramp (pale → orange → red as size grows).
 
 ### OpenCode
 
@@ -124,56 +305,71 @@ Single file works with both Afterburner and Fogburn — colors are mid-range hex
 { "theme": "afterburner-fogburn" }
 ```
 
-Single file with genuine `dark`/`light` splits per key — OpenCode auto-selects based on detected terminal background. No need to maintain two files.
+Single file with `dark`/`light` splits per key — OpenCode auto-selects based on detected terminal background.
 
----
+### Kitty
 
-## Design decisions
+```
+~/.config/kitty/afterburner.conf
+~/.config/kitty/fogburn.conf
+```
 
-### Syntax hierarchy
+Add to your `kitty.conf`:
+```
+include afterburner.conf    # or: include fogburn.conf
+```
+
+### WezTerm
+
+```
+~/.config/wezterm/afterburner.lua
+~/.config/wezterm/fogburn.lua
+```
+
+```lua
+-- wezterm.lua
+local afterburner = require('afterburner')
+return {
+  colors = afterburner.colors,
+}
+```
+
+&nbsp;
+
+### 📖 Design Decisions
+
+#### Syntax hierarchy
 
 Keywords own the full `#FF4F00`. Functions step back to amber `#E09B30` italic. Types recede further to warm gray `#A89888` italic — after tuning against C++ codebases where `std::`, `int`, and `void` would otherwise compete with `template` and `using` for the same visual weight. Strings take orange mid `#FF7A33`. Numbers take teal `#4DBFA8` — the furthest hue from orange in the palette, providing instant differentiation.
 
-### The warm gray
+#### Why two oranges?
+
+The **primary accent** is [International Orange (Aerospace)](https://en.wikipedia.org/wiki/International_orange#Aerospace) `#FF4F00` — used on NASA flight suits, the Bell X-1, and search-and-rescue equipment. It was chosen for *conspicuity*: maximum visibility against any background.
+
+The **error/red** is [International Orange (Engineering)](https://en.wikipedia.org/wiki/International_orange#Engineering) `#BA160C` — the color of the Golden Gate Bridge. Same family, different application. Danger signals stay semantically distinct from the accent without reaching for an unrelated hue.
+
+#### The warm gray
 
 `#A89888` — used for `storage.type` builtins, namespaces, and warm-neutral UI text. Not cold gray (`#888888`), not full orange. It sits in the same color temperature as the background and accent, so recessed elements feel like they belong rather than being imposed from a different palette.
 
-### Light theme background
+#### Light theme background
 
 `#F5F0EB` rather than `#FFFFFF`. Pure white against `#FF4F00` halates — the orange blooms optically against a stark white field. The warm off-white pulls the background toward the accent's own undertone. The same logic applies to the near-black `#0D0D0D` in the dark theme: pure black makes high-saturation warm colors feel harsh.
 
-### Error color
+#### Error color consistency
 
-`#BA160C` stays identical in both variants — it already sits at the correct contrast ratio on both backgrounds, and changing it would break cross-theme semantic consistency. It's the one color in the suite that doesn't need a light/dark split.
+`#BA160C` stays identical in both variants — it already sits at the correct contrast ratio on both backgrounds, and changing it would break cross-theme semantic consistency.
 
----
+&nbsp;
 
-## File inventory
-
-| File | Target |
-|---|---|
-| `afterburner-ghostty` | Ghostty theme (dark) |
-| `fogburn-ghostty` | Ghostty theme (light) |
-| `afterburner.toml` | Helix theme (dark) |
-| `fogburn.toml` | Helix theme (light) |
-| `Afterburner.tmTheme` | Sublime Text (dark) |
-| `Fogburn.tmTheme` | Sublime Text (light) |
-| `afterburner.fish` | Fish shell + prompt (dark) |
-| `fogburn.fish` | Fish shell + prompt (light) |
-| `starship.toml` | Starship prompt (both variants) |
-| `theme.yml` | Eza file listing (both variants) |
-| `afterburner-fogburn.json` | OpenCode TUI (auto dark/light) |
-
----
-
-## Credits
+### 📜 Credits
 
 - [International Orange (Aerospace)](https://en.wikipedia.org/wiki/International_orange#Aerospace) — `#FF4F00`
 - [International Orange (Engineering)](https://en.wikipedia.org/wiki/International_orange#Engineering) — `#BA160C`
-- Irving Morrow — architect of the Golden Gate Bridge, who chose the color
-- Chuck Yeager — who flew the Bell X-1 through the sound barrier in an orange rocket plane on October 14, 1947
+- [Irving Morrow](https://en.wikipedia.org/wiki/Irving_Morrow) — architect of the Golden Gate Bridge, who chose the color
+- [Chuck Yeager](https://en.wikipedia.org/wiki/Chuck_Yeager) — who flew the Bell X-1 through the sound barrier in an orange rocket plane on October 14, 1947
 
----
+&nbsp;
 
 <div align="center">
 
