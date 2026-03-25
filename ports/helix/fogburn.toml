@@ -13,7 +13,7 @@
 "ui.cursor"                  = { fg = "bg", bg = "cursor" }
 "ui.cursor.primary"          = { fg = "bg", bg = "cursor" }
 "ui.cursor.match"            = { fg = "bg", bg = "orange_dark" }
-"ui.selection"               = { bg = "surface" }
+"ui.selection"               = { bg = "border" }
 "ui.statusline"              = { fg = "fg", bg = "surface" }
 "ui.statusline.active"       = { fg = "orange", bg = "surface", modifiers = ["bold"] }
 "ui.statusline.inactive"     = { fg = "subtle", bg = "surface" }
